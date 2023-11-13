@@ -1,0 +1,15 @@
+.main{
+    background-color:azure;
+    /* position: fixed;
+    bottom:0; */
+    width:100%;
+    /* width:10rem; */
+}
+/* h6,p{
+     color:azure;
+} */
+@media(min-width:372px) and (max-width:591px){
+    .main{
+        width:41rem;
+    }
+}

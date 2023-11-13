@@ -1,0 +1,22 @@
+/* .omg{
+    margin-top:6rem;
+} */
+.a10{
+    /* width:rem; */
+         height:5rem; 
+     /* width:100vw; */
+     width:77rem;
+    
+
+}
+/* .h11,p11{
+    margin-right:4rem;
+} */
+@media(min-width:578px) and (max-width:900px){
+    .a10{
+      width:46rem;
+      height:1rem;
+      font-size:0.5rem;
+   } 
+}
+  
