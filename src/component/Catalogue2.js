@@ -1,9 +1,9 @@
 import onClickHandler from './Catalogue.js';
 import {Link} from "react-router-dom";
-import './Catalogue.css';
+import './Catalogue2.css';
 // import  shirts from '../assets/shirts.avif';
 // import  topper from '../assets/topper.jpg';
-const Catalogue = (props)=>{
+const Catalogue2 = (props)=>{
                const onClickHandler = async()=>{
                 //  let response =  await axios.get("https://api.unsplash.com/photos/?client_id='AWIiaARhlqLNnHOANnIxiAAgpXADSbnaHWL1fRHwLwU'");
                        
@@ -19,13 +19,14 @@ const Catalogue = (props)=>{
   // <div className="row row-cols-6">
   <div className = "row y25">
     <div className ="col-2 b25">
-    <div className=" a15 sm-2 md-2 lg-2"  >
+    <div className="card a15 sm-2 md-2 lg-2"  >
 
-  <img src={props.pmgsrc} class="card-img-top z-25 sm-2 md-2 lg-2" alt="..."/>
+  <img src={props.pmgsrc} class="card-img-top z-26 sm-2 md-2 lg-2" alt="..."/>
 
-  <div className="card-body c25">
-    <p className="card-title g4444">{props.title}</p>
-    <h6 className="card-text x4444">{props.head}</h6>
+  <div className=" c105">
+    <p className="card-title g9">{props.title}</p>
+    <h5 className="card-text x9">{props.head}</h5>
+    <p className = "x9">{props.down}</p>
 
      {/* <Link to = "/onClickHandler" className ="btn btn-primary z9">View</Link>  */}
   
@@ -39,4 +40,4 @@ const Catalogue = (props)=>{
 
        );
 }
-export default Catalogue;
+export default Catalogue2;

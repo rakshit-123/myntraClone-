@@ -18,3 +18,8 @@ body{
   right:-1;
   overflow-x: hidden;
 }
+.last{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

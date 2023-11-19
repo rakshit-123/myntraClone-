@@ -3,9 +3,9 @@ const Omg = ()=>{
 
 return(
     <>
-<div className = 'd-block  h-10 a10'>
-    <h1 className=' d-flex justify-content-center align-items-center text-primary '> Omg! Deals</h1>
-    <p className='d-flex justify-content-center align-items-center '> Medal Worthy Brands To Bags </p>
+<div className = 'd-block   a10'>
+    {/* <h1 className=' d-flex justify-content-center align-items-center text-primary '> Omg! Deals</h1> */}
+    <h3 className = "h99"> MEDAL WORTHY BRANDS TO BAGS </h3>
 
 </div>
 </>

@@ -36,18 +36,18 @@ const Navbar = ()=>{
   <div class="row row-cols-auto t1 ">
     <div class="col-sm-3 md-2 q1">
     <img  className = "i5" src = {profile}/>
-    <p className='z25'> profile</p>
+    <p className='z825'> profile</p>
     
     </div>
     <div class="col-sm-3 md-2  q1">
     <img className = "i5" src = {wishlist}/>
-    <p className='z25'> Wishlist</p>
+    <p className='z825'> Wishlist</p>
     
      {/* className = "i5" */}
     </div> 
     <div class="col-sm-3 md-2 q1">
     <img  className = "i5"src = {bag}/>
-    <p className='z25'>Bag</p>
+    <p className='z825'>Bag</p>
     </div>
     
   </div>
