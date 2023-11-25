@@ -1,7 +1,7 @@
 import "./Footer.css";
 import Google from "../assets/googlePlay.png";
 import appStore from "../assets/appStore.png";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+// import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import  original from '../assets/original.png';
 import number14 from '../assets/number14.png';
 const Footer = () => {
@@ -55,19 +55,23 @@ const Footer = () => {
                     <div className="row g001">
                       <div className="col lo">
                         {/* <p>Watch</p>  */}
-                        <FaFacebook />
+                        {/* <FaFacebook /> */}
+                        <i className = "fab fa-facebook"></i>
                       </div>
                       <div className="col lo">
                         {/* <p>Bag</p> */}
-                        <FaInstagram />
+                        {/* <FaInstagram /> */}
+                        <i className = "fab fa-instagram"></i>
                       </div>
                       <div className="col lo">
                         {/* <p>Shoes</p> */}
-                        <FaLinkedin />
+                        {/* <FaLinkedin /> */}
+                        <i className = "fab fa-linkedin"></i>
                       </div>
                       <div className="col lo">
                         {/* <p>Shoes</p> */}
-                        <FaTwitter />
+                        {/* <FaTwitter /> */}
+                        <i className = "fab fa-twitter"></i>
                       </div>
                     </div>
                   </div>
